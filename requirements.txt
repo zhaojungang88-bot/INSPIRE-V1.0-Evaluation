@@ -1,0 +1,3 @@
+# The public code uses the Python standard library.
+# Qwen3-Embedding-8B, Chroma, and BAAI/bge-reranker-v2-m3 are the named study
+# components. Their packages and weights are not required to run this release.

@@ -1,0 +1,23 @@
+{
+  "platform": "INSPIRE V1.0",
+  "generator": "DeepSeek-V3-0324",
+  "embedding_model": "Qwen/Qwen3-Embedding-8B",
+  "vector_store": "Chroma",
+  "similarity": "cosine",
+  "chunk_size_tokens": 512,
+  "chunk_overlap_tokens": 64,
+  "dense_candidates": 20,
+  "reranker": "BAAI/bge-reranker-v2-m3",
+  "selected_chunks": 10,
+  "evidence_token_limit": 4000,
+  "query": "The Chinese tier text is the retrieval query. This code does not rewrite it into a separate keyword string.",
+  "intent_recognition": false,
+  "cross_language": "Multilingual embedding retrieval supplemented by disease-name and synonym mapping.",
+  "source_priorities_natural_language": {
+    "local_knowledge_base": "30%",
+    "model_knowledge": "50%",
+    "web_search": "20%",
+    "meaning": "Natural-language instruction. Not computational mixture weights."
+  },
+  "public_release": "Core control flow only. Model weights, the vector index, the knowledge base, and study data are not in this repository."
+}
